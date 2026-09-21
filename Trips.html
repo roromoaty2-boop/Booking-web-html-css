@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/Trips.css">
+    <title>Rihla</title>
+</head>
+<body>
+    
+  
+
+
+
+    <header>
+
+  
+
+
+        <div class="logo">
+
+
+            <img src="./asssests/Navbar.png" alt="nav-logo">
+            <div class="logo-text">
+                <h1>Rihla</h1>
+                <p>EGYPT TRAVEL</p>
+            </div>
+
+        </div>
+        
+
+
+
+        <nav>
+
+
+            <div class="nav-list">
+
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Trips</a></li>
+                    <li><a href="#">My Booking</a></li>
+                </ul>
+
+
+            </div>
+
+
+
+            <div class="nav-btn">
+
+
+                <button class="sign2">
+
+                    <img src="./asssests/signin-icon.png" alt="signin-icon" />
+                    <a href="login.html" target="_blank" class="sign">Signin</a>
+
+                </button>
+
+
+                <button class="book">
+
+                    <img src="./asssests/BookNow-icon.png" alt="BookNow-icon" />
+                    <a href="#" class="book2">Book Now</a>
+
+                </button>
+
+
+
+            </div>
+
+
+        </nav>
+
+
+
+
+    </header>
+
+
+
+    <section  class="hero-section">
+        <video autoplay muted loop playsinline>
+            <source src="./asssests/hero-section.mp4" type="video/mp4">
+        </video>
+
+        <div class="pop-tx-hash">
+            <img src="./asssests/star-icon.png" alt="star">
+            <p>Featured Trips</p>
+        </div>
+
+
+
+        <h1>Popular Routes Across Egypt</h1>
+        <p>Hand-picked journeys to Egypt's most iconic destinations with premium comfort and unbeatable prices.</p>
+
+        <div class="search">
+
+                <div class="circle">
+                
+                    <input type="text" placeholder="Where to?"/>
+                    <input type="date" />
+
+                    <select name="" id="">
+                        <option value="traveler">
+                            <img src="./asssests/traveleroption.png" alt="traveler">
+                            Traveler 1
+                        </option>
+                    </select>
+
+                    <button>
+                        <img src="./asssests/searchtrip.png" alt="">
+                        <a href="#">Search Trip</a>
+                    </button>
+                </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <section class="filter-body">
+
+
+
+        <div class="filter">
+
+
+            <div class="heading">
+                
+                <div>
+                    <img src="./asssests/filters.png" alt="filters">
+                    <h3>Filters</h3>
+                </div>
+
+                <p>Clear all</p>
+            </div>
+
+
+            <div class="Destination">
+                <h4>Destination</h4>
+                <select name="" id="">
+                    <option value=""> All Destination</option>
+                </select>
+            </div>
+
+
+            <div class="Price-Range">
+
+
+                <div class="price-range">
+                    <h2>Price Range</h2>
+
+                    <input type="range" min="0" max="200" value="25" class="slider">
+
+                    <div class="price">
+                        <span>$0</span>
+                        <span>$200</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="Duration">
+                <h4>Duration</h4>
+
+                <button>Any duration</button>
+                <button>Under 4 hours</button>
+                <button>4 – 8 hours</button>
+                <button>Over 8 hours</button>
+
+
+            </div>
+
+
+            <div class="Trip-types">
+
+                <h4>Trip types</h4>
+
+                <div>
+                    <ul>
+                        <li>Popular</li>
+                        <li>Express</li>
+                    </ul>
+
+                    <ul>
+                        <li>Express</li>
+                        <li>Express</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+    <section class="list-of-trip">
+
+
+
+        <div class="found">
+                <p><span>8</span> trips found</p>
+
+                <div class="sort">
+                    <p>Sort by:</p>
+
+
+                    <div>
+                        <button>Rating</button>
+                        <button>Price</button>
+                        <button>Duration</button>
+                    </div>
+
+
+                </div>
+
+
+        </div>
+
+
+
+
+        <div class="list-booking">
+
+
+
+            <div class="card-tittle">
+
+
+
+
+                <div class="detail">
+
+                    <img src="./asssests/hurghada.jpg" alt="hurghada" class="trip-img"/>
+
+
+                    <div class="trip-heading">
+
+
+                        <h2>Cairo → Hurghada</h2>
+
+                        <div class="timer">
+
+                            <img src="./asssests/orange-clock.png" alt="" />
+                            <p>09:00 AM → 02:00 PM</p>
+
+                            <img src="./asssests/green-clock.png" alt="" />
+                            <p>5h</p>
+                        </div>
+
+
+                        <img src="./asssests/rates.png" alt="rates" class="rate"/>
+
+
+
+                        <div class="feature-list">
+
+
+                            <ul>
+                                <li>Premium Express</li>
+                                <li>
+                                    <img src="./asssests/people.png" alt="">
+                                    24 seats left</li>
+                            </ul>
+
+
+                            <ul>
+                                <li>
+                                    <img src="./asssests/wifi.png" alt="">
+                                    WiFi</li>
+                                <li>
+                                    <img src="./asssests/AC.png" alt=""> 
+                                    AC</li>
+                                <li>
+                                    <img src="./asssests/charge.png" alt="">
+                                    USB Charging</li>
+                            </ul> 
+
+
+                        </div>
+
+
+
+                        
+
+
+
+                    </div>
+
+
+                    <div class="price-part">
+
+                            <div class="trip-price">
+                                <p>From</p>
+                                <h1>$35</h1>
+                                <p>per seat</p>
+                            </div>
+
+                            <div class="price-btn">
+
+                                <button class="view-details">View Details</button>
+
+                                <button class="book-now">
+                                    Book Now
+                                    <img src="./asssests/right-arrow.png" alt="">
+                                </button>
+                            </div>
+
+                        </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+            <div class="card-tittle">
+
+
+
+
+                <div class="detail">
+
+                    <img src="./asssests/hurghada.jpg" alt="hurghada" class="trip-img"/>
+
+
+                    <div class="trip-heading">
+
+
+                        <h2>Cairo → Hurghada</h2>
+
+                        <div class="timer">
+
+                            <img src="./asssests/orange-clock.png" alt="" />
+                            <p>09:00 AM → 02:00 PM</p>
+
+                            <img src="./asssests/green-clock.png" alt="" />
+                            <p>5h</p>
+                        </div>
+
+
+                        <img src="./asssests/rates.png" alt="rates" class="rate"/>
+
+
+
+                        <div class="feature-list">
+
+
+                            <ul>
+                                <li>Premium Express</li>
+                                <li>
+                                    <img src="./asssests/people.png" alt="">
+                                    24 seats left</li>
+                            </ul>
+
+
+                            <ul>
+                                <li>
+                                    <img src="./asssests/wifi.png" alt="">
+                                    WiFi</li>
+                                <li>
+                                    <img src="./asssests/AC.png" alt=""> 
+                                    AC</li>
+                                <li>
+                                    <img src="./asssests/charge.png" alt="">
+                                    USB Charging</li>
+                            </ul> 
+
+
+                        </div>
+
+
+
+                        
+
+
+
+                    </div>
+
+
+                    <div class="price-part">
+
+                            <div class="trip-price">
+                                <p>From</p>
+                                <h1>$35</h1>
+                                <p>per seat</p>
+                            </div>
+
+                            <div class="price-btn">
+
+                                <button class="view-details">View Details</button>
+
+                                <button class="book-now">
+                                    Book Now
+                                    <img src="./asssests/right-arrow.png" alt="">
+                                </button>
+                            </div>
+
+                        </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+            <div class="card-tittle">
+
+
+
+
+                <div class="detail">
+
+                    <img src="./asssests/hurghada.jpg" alt="hurghada" class="trip-img"/>
+
+
+                    <div class="trip-heading">
+
+
+                        <h2>Cairo → Hurghada</h2>
+
+                        <div class="timer">
+
+                            <img src="./asssests/orange-clock.png" alt="" />
+                            <p>09:00 AM → 02:00 PM</p>
+
+                            <img src="./asssests/green-clock.png" alt="" />
+                            <p>5h</p>
+                        </div>
+
+
+                        <img src="./asssests/rates.png" alt="rates" class="rate"/>
+
+
+
+                        <div class="feature-list">
+
+
+                            <ul>
+                                <li>Premium Express</li>
+                                <li>
+                                    <img src="./asssests/people.png" alt="">
+                                    24 seats left</li>
+                            </ul>
+
+
+                            <ul>
+                                <li>
+                                    <img src="./asssests/wifi.png" alt="">
+                                    WiFi</li>
+                                <li>
+                                    <img src="./asssests/AC.png" alt=""> 
+                                    AC</li>
+                                <li>
+                                    <img src="./asssests/charge.png" alt="">
+                                    USB Charging</li>
+                            </ul> 
+
+
+                        </div>
+
+
+
+                        
+
+
+
+                    </div>
+
+
+                    <div class="price-part">
+
+                            <div class="trip-price">
+                                <p>From</p>
+                                <h1>$35</h1>
+                                <p>per seat</p>
+                            </div>
+
+                            <div class="price-btn">
+
+                                <button class="view-details">View Details</button>
+
+                                <button class="book-now">
+                                    Book Now
+                                    <img src="./asssests/right-arrow.png" alt="">
+                                </button>
+                            </div>
+
+                        </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <div class="card-tittle">
+
+
+
+
+                <div class="detail">
+
+                    <img src="./asssests/hurghada.jpg" alt="hurghada" class="trip-img"/>
+
+
+                    <div class="trip-heading">
+
+
+                        <h2>Cairo → Hurghada</h2>
+
+                        <div class="timer">
+
+                            <img src="./asssests/orange-clock.png" alt="" />
+                            <p>09:00 AM → 02:00 PM</p>
+
+                            <img src="./asssests/green-clock.png" alt="" />
+                            <p>5h</p>
+                        </div>
+
+
+                        <img src="./asssests/rates.png" alt="rates" class="rate"/>
+
+
+
+                        <div class="feature-list">
+
+
+                            <ul>
+                                <li>Premium Express</li>
+                                <li>
+                                    <img src="./asssests/people.png" alt="">
+                                    24 seats left</li>
+                            </ul>
+
+
+                            <ul>
+                                <li>
+                                    <img src="./asssests/wifi.png" alt="">
+                                    WiFi</li>
+                                <li>
+                                    <img src="./asssests/AC.png" alt=""> 
+                                    AC</li>
+                                <li>
+                                    <img src="./asssests/charge.png" alt="">
+                                    USB Charging</li>
+                            </ul> 
+
+
+                        </div>
+
+
+
+                        
+
+
+
+                    </div>
+
+
+                    <div class="price-part">
+
+                            <div class="trip-price">
+                                <p>From</p>
+                                <h1>$35</h1>
+                                <p>per seat</p>
+                            </div>
+
+                            <div class="price-btn">
+
+                                <button class="view-details">View Details</button>
+
+                                <button class="book-now">
+                                    Book Now
+                                    <img src="./asssests/right-arrow.png" alt="">
+                                </button>
+                            </div>
+
+                        </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <div class="card-tittle">
+
+
+
+
+                <div class="detail">
+
+                    <img src="./asssests/hurghada.jpg" alt="hurghada" class="trip-img"/>
+
+
+                    <div class="trip-heading">
+
+
+                        <h2>Cairo → Hurghada</h2>
+
+                        <div class="timer">
+
+                            <img src="./asssests/orange-clock.png" alt="" />
+                            <p>09:00 AM → 02:00 PM</p>
+
+                            <img src="./asssests/green-clock.png" alt="" />
+                            <p>5h</p>
+                        </div>
+
+
+                        <img src="./asssests/rates.png" alt="rates" class="rate"/>
+
+
+
+                        <div class="feature-list">
+
+
+                            <ul>
+                                <li>Premium Express</li>
+                                <li>
+                                    <img src="./asssests/people.png" alt="">
+                                    24 seats left</li>
+                            </ul>
+
+
+                            <ul>
+                                <li>
+                                    <img src="./asssests/wifi.png" alt="">
+                                    WiFi</li>
+                                <li>
+                                    <img src="./asssests/AC.png" alt=""> 
+                                    AC</li>
+                                <li>
+                                    <img src="./asssests/charge.png" alt="">
+                                    USB Charging</li>
+                            </ul> 
+
+
+                        </div>
+
+
+
+                        
+
+
+
+                    </div>
+
+
+                    <div class="price-part">
+
+                            <div class="trip-price">
+                                <p>From</p>
+                                <h1>$35</h1>
+                                <p>per seat</p>
+                            </div>
+
+                            <div class="price-btn">
+
+                                <button class="view-details">View Details</button>
+
+                                <button class="book-now">
+                                    Book Now
+                                    <img src="./asssests/right-arrow.png" alt="">
+                                </button>
+                            </div>
+
+                        </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+            
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+    <footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Left -->
+        <div class="footer-about">
+
+            <div class="footer-logo">
+                <img src="./asssests/Navbar.png" alt="logo">
+
+                <div class="logo-text">
+                    <h2>Rihla</h2>
+                    <span>EGYPT TRAVEL</span>
+                </div>
+            </div>
+
+            <p>
+                Egypt's premier travel platform, connecting you to the most beautiful destinations across the land of the pharaohs.
+            </p>
+
+            <div class="social-icons">
+                <a href="#"><img src="./asssests/facebook.png" alt=""></a>
+                <a href="#"><img src="./asssests/X.png" alt=""></a>
+                <a href="#"><img src="./asssests/instagram.png" alt=""></a>
+                <a href="#"><img src="./asssests/youtube.png" alt=""></a>
+            </div>
+
+        </div>
+
+        <!-- Quick Links -->
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">All Trips</a></li>
+                <li><a href="#">My Booking</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Destinations -->
+
+        <div class="footer-links">
+
+            <h3>Top Destinations</h3>
+
+            <ul>
+                <li><a href="#">Luxor</a></li>
+                <li><a href="#">Aswan</a></li>
+                <li><a href="#">Hurghada</a></li>
+                <li><a href="#">Siwa Oasis</a></li>
+                <li><a href="#">Alexandria</a></li>
+                <li><a href="#">Sharm El-Sheikh</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Contact -->
+
+        <div class="footer-contact">
+
+            <h3>Contact Us</h3>
+
+            <div class="contact-item">
+                <img src="./asssests/location.png" alt="">
+                <p>15 Tahrir Square, Cairo, Egypt</p>
+            </div>
+
+            <div class="contact-item">
+                <img src="./asssests/mail.png" alt="">
+                <p>hello@egytrips.com</p>
+            </div>
+
+            <div class="contact-item">
+                <img src="./asssests/phone.png" alt="">
+                <p>+20 100 123 4567</p>
+            </div>
+
+            <h4>Subscribe for travel deals</h4>
+
+            <div class="subscribe">
+
+                <input type="email" placeholder="Your email">
+
+                <button>Join</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+        <div class="footer-bottom">
+
+            <p>© 2026 EgyTrips. All rights reserved.</p>
+
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+</html>

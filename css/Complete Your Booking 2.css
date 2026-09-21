@@ -1,0 +1,828 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1440;
+    height: 96;
+    padding-top: 24px;
+    padding-right: 80px;
+    padding-bottom: 24px;
+    padding-left: 80px;
+    opacity: 1;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+.logo img {
+    margin-top: 10px;
+}
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logo-text h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: Black;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.logo-text p {
+    margin: 0;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #666;
+}
+
+
+
+.nav-list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+
+.nav-list ul li a {
+    color: #345F71;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 320px;
+    margin-top: 15px;
+}
+
+
+nav ul {
+    gap: 48px;
+    margin-top: 10px;
+}
+
+
+
+.nav-btn {
+    display: flex;
+    gap: 16px;
+}
+
+
+
+.nav-btn button {
+    border: 1px solid;
+    border-radius: 999px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    row-gap: 10px;
+}
+
+
+
+.nav-btn .sign {
+    color: #345F71;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+
+
+}
+
+.nav-btn .book {
+    color: #FFFFFF;
+    background: linear-gradient(135deg, #E76F51 0%, #F4A261 100%);
+    box-shadow: 0px 4px 14px 0px #E76F5166;
+
+}
+
+.nav-btn .book2 {
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+
+
+
+.nav-btn .sign2 {
+    background-color: #FFFFFF;
+
+}
+
+
+
+.col-hr-sc {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.hero-section {
+        background-image: 
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url("../asssests/herosection.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 792px;
+    top: 95px;
+    opacity: 1;
+}
+
+
+.hero-section .col-hr-sc  .hashtag {
+    border: 1px solid;
+    width: 280px;
+    height: 38px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    gap: 8px;
+    opacity: 1;
+    border-radius: 16777200px;
+    border-width: 1px;
+    border-color: 1px solid var(--Colors-Primary-Alpha-50, #F0925C80);
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+
+.Hero-section {
+    background: linear-gradient(180deg, rgba(38, 70, 83, 0.3) 0%, rgba(38, 70, 83, 0.75) 100%),
+                url(../asssests/luxor-HERO-SECTION.png);
+    width: 100%;
+    height: 479.995849609375px;
+    opacity: 1;
+    padding-bottom: 48px;
+}
+
+
+
+.hero-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 20px;
+    padding: 40px 20px 40px 20px;
+}
+
+
+
+
+
+.create-heading {
+     margin: 100px 0px 0px 0px;
+}
+
+
+.create-heading h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: -0.16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+.choosed-booking-details p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.04px;
+    text-align: center;
+    color: #FFFFFFA6;
+}
+
+
+
+
+
+.create-steps {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    gap: 90px;
+    justify-content: center;
+    align-content: space-between;
+}
+
+
+
+
+.steps-discription {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    gap: 200px;
+    justify-content: center;
+    align-content: space-between;
+    color: #A6C8D6;
+}
+
+
+
+.trip-summary {
+    color: #ED7B39;
+} 
+
+
+
+
+
+
+
+.create-steps div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 42px;
+    height: 42px;
+    opacity: 1;
+    border-radius: 22px;
+    border-width: 1.34px;
+    background: #F5EFE6;
+    border: 1.34px solid #E9E4DA;
+    color: #345F71;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: "Bold";
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+}
+
+
+.create-steps .step1 {
+    background: #ED7B39;
+    border: 1.34px solid #ED7B39;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 0px 4px #ED7B39;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+.create-steps hr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 20px;
+    color: #E9E4DA;
+    background: #E9E4DA;
+    width: 85.9923095703125px;
+    height: 3.995868444442749px;
+    opacity: 1;
+    margin-top: 25px;
+}
+
+
+
+
+
+.PassengerInformation {
+    width: 752.01171875px;
+    height: 695.3446044921875px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+    left: 335px;
+    border-radius: 20px;
+    border-width: 0.67px;
+    padding: 36px;
+    gap: 32px;
+    opacity: 1;
+    background: #FFFFFF;
+    border: 2px solid #E9E4DA;
+    box-shadow: 0px 4px 20px 0px #26465312;
+
+}
+
+
+
+
+.PassengerInformation h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: "Bold";
+    font-size: 22px;
+    line-height: 28.6px;
+    letter-spacing: 0px;
+    color: #264653;
+}
+
+
+
+
+.PassengerInformation p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #5B6470;
+    margin-top: -25px;
+}
+
+
+
+
+
+.information-inputs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 20px;
+}
+
+
+
+
+.information-inputs div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 10px;
+}
+
+
+
+
+
+.information-inputs div input {
+    width: 678.6671142578125px;
+    height: 53px;
+    border-radius: 999px;
+    border-width: 1.34px;
+    padding: 16px;
+    opacity: 1;
+    background: #F0925C0D;
+    border: 2px solid var(--Colors-Primary-Alpha-10, #F0925C1A);
+}
+
+
+
+
+.information-inputs div label {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: "SemiBold";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #264653;
+}
+
+
+
+
+
+.passenger-save {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 678.6688232421875px;
+    height: 56px;
+    border-radius: 999px;
+    padding: 16px;
+    opacity: 1;
+    background: #2646530D;
+}
+
+
+
+
+
+
+
+.passenger-save p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    gap: 8px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+
+
+.btn-seats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 40px;
+}
+
+.btn-seats button {
+    width: 336px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    opacity: 1;
+    border-radius: 999px;
+    border-width: 1px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+}
+
+
+
+
+.change-seats {
+    border: 3px solid var(--Colors-Secondary-200, #A6C8D6);
+    box-shadow: 0px 4px 14px 0px #E76F5166;
+    color: #345F71;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    gap: 10px;
+}
+
+
+
+
+.change-seats p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: "SemiBold";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #345F71;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+.change-seats button p {
+    color: #345F71;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: "SemiBold";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+
+.change-seats button img {
+    border: 2px;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+
+}
+
+
+
+
+
+
+.continue {
+    width: 336px;
+height: 56px;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+position: relative;
+justify-content: space-between;
+align-content: space-between;
+opacity: 1;
+border-radius: 999px;
+padding-top: 8px;
+padding-right: 16px;
+padding-bottom: 8px;
+padding-left: 16px;
+background: linear-gradient(135deg, #E76F51 0%, #F4A261 100%);
+box-shadow: 0px 4px 14px 0px #E76F5166;
+color: #FFFFFF;
+}
+
+
+
+
+
+.continue p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: "SemiBold";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+.PassengerInformation p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04px;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+
+
+.footer{
+    background:#264653;
+    padding:80px 100px 30px;
+    margin-top: 240px;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 1.4fr;
+    gap:70px;
+}
+
+.footer-logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.footer-logo img{
+    width:55px;
+}
+
+.logo-text h2{
+    color:#fff;
+    font-size:32px;
+}
+
+.logo-text span{
+    color:#8EA9B2;
+    font-size:12px;
+    letter-spacing:3px;
+}
+
+.footer-about p{
+    color:#D7E3E7;
+    line-height:35px;
+    margin:35px 0;
+    max-width:330px;
+    font-size:18px;
+}
+
+.social-icons{
+    display:flex;
+    gap:15px;
+}
+
+.social-icons a{
+    width:45px;
+    height:45px;
+    background:rgba(255,255,255,.08);
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    background:#F4A261;
+}
+
+.social-icons img{
+    width:18px;
+}
+
+.footer-links h3,
+.footer-contact h3{
+    color:#fff;
+    font-size:28px;
+    margin-bottom:30px;
+}
+
+.footer-links ul{
+    padding:0;
+}
+
+.footer-links li{
+    list-style:none;
+    margin-bottom:18px;
+}
+
+.footer-links a{
+    color:#D7E3E7;
+    text-decoration:none;
+    font-size:18px;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#F4A261;
+}
+
+.contact-item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.contact-item img{
+    width:42px;
+}
+
+.contact-item p{
+    color:#D7E3E7;
+}
+
+.footer-contact h4{
+    color:#fff;
+    margin:35px 0 15px;
+}
+
+.subscribe{
+    display:flex;
+}
+
+.subscribe input{
+    width:220px;
+    height:50px;
+    border:none;
+    outline:none;
+    background:#395865;
+    color:#fff;
+    padding:15px;
+    border-radius:10px 0 0 10px;
+}
+
+.subscribe input::placeholder{
+    color:#B8C8CF;
+}
+
+.subscribe button{
+    width:90px;
+    border:none;
+    background:#F4A261;
+    color:#fff;
+    font-weight:600;
+    border-radius:0 10px 10px 0;
+    cursor:pointer;
+}
+
+.footer hr{
+    margin:60px 0 25px;
+    border:none;
+    border-top:1px solid rgba(255,255,255,.1);
+}
+
+.footer-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-bottom p{
+    color:#C6D5DA;
+}
+
+.footer-bottom-links{
+    display:flex;
+    gap:35px;
+}
+
+.footer-bottom-links a{
+    color:#C6D5DA;
+    text-decoration:none;
+}
+
+.footer-bottom-links a:hover{
+    color:#F4A261;
+}
